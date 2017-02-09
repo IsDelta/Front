@@ -3,28 +3,28 @@
 
 <head>
 
-<title> Гуков Т-291 </title>
-
-<META name="Author" content="Gukov Nikita "> <!--Авторство -->
-<!--<META http-equiv="Refresh" content=1> <!--Обновление -->
-<META http-equiv="content-type" content="text/html;  charset=utf-8">
-     <script language="JavaScript" type="text/JavaScript">
-        function care(a,h)
-           { var s=(a*h)/2;
-              document.write("Площадь прямоугольного треугольника ",s);
-              return s}
-     </script>
-   </head>
-   <body>
-    <p>Пример сценария со значениями из формы</p>
-    <Form name="form1">
-     Основание: <input type="text" size=5 name="st1"><hr>
-     Высота: <input type="text" size=5 name="st2"><hr>
-     <input type="button" value=Вычислить
-       onClick="care(document.form1.st1.value, 
-document.form1.st2.value)">
-     </Form>
-  </body>
+    <title> Гуков Т-291 </title>
+    <META name="Author" content="Nikita">
+    <META http-equiv="content-type" content="text/html;  charset=utf-8">
+    <script language="JavaScript" type="text/JavaScript">
+        function care(a, h) {
+            var s = (a * h) / 2;
+            document.writeln("Площадь прямоугольного треугольника " + s);
+            return s
+        }
+    </script>
+</head>
+<body>
+<p>Пример сценария со значениями из формы</p>
+<Form name="form1">
+    Основание: <input type="text" size=5 name="st1" title="Основание">
+    <hr>
+    Высота: <input type="text" size=5 name="st2" title="Высота">
+    <hr>
+    <input type="button" value=Вычислить
+           onClick="care(document.form1.st1.value, document.form1.st2.value)">
+</Form>
+</body>
 </html>
 
 
