@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title> Гуков Т-291 </title>
+
+    <META name="Author" content="Gukov Nikita "> <!--Авторство -->
+    <!--<META http-equiv="Refresh" content=1> <!--Обновление -->
+    <META http-equiv="content-type" content="text/html;  charset=utf-8">
+    <style>
+        #storona {
+            font-size: 1em;
+            background: #eee;
+            border: 2px dotted #1cd;
+        }
+
+        #rezult {
+            font: 30px bold;
+            color: #66c;
+        }
+    </style>
+    <meta charset="utf-8">
+    <script>
+        function id(id) {
+            return document.getElementById(id);
+        }
+        function srec() {
+            id ('rezult').value = parseInt((id ('storona').value) * parseInt(id ('storona').value));
+        }
+    </script>
+
+
+</head>
+<body>
+<p>Вычисление площади квадрата</p>
+<Form name="form1">
+    Сторона: <input type="text" size=20 id="storona" placeholder="надо ввести число..."
+                    onfocus="srec()">
+    <hr>
+    Площадь: <input type="text" size=7 id="rezult">
+    <hr>
+    <input type="reset" value="Обновить">
+</Form>
+</body>
+</html>
+
+

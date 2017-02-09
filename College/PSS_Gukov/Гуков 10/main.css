@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+ul {
+    list-style-position: inside;
+    list-style-image: url("1.png");
+    color: red;
+    font-size: 20px;
+    font-family: Calibri, Arial Black;
+}
+
+li {
+    list-style-image: URL(1.png);
+    list-style-position: inside;
+    cursor: pointer
+}
+
+#last {
+    margin-left: 21px;
+    background-color: orange;
+    border-right: 10px solid;
+    font: 1.2em;
+    text-align: right
+}
+
+#span.last {
+    top: 2cm;
+    color: blue;
+    text-indent: 20px;
+    border-left-style: dashed;
+    border-left-width: 2px;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px green
+}
+
+
+
+
+
+
+
+
+
+
+

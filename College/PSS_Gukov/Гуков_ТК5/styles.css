@@ -1,0 +1,47 @@
+﻿@charset "UTF-8";
+body{
+	background-color:#CCFFCC
+}
+#header {
+	 border:#3366FF dashed 10px;
+	 background-color:#FFCC66; padding: 8px;
+	 
+}
+#first_line { text-align:right; 
+	
+}
+#second_line { text-align:right;  border-bottom: solid; 
+border-right: solid;
+	
+}
+
+#third_line {
+	border-left: solid;   
+}
+#zav{
+	background-color:fuchsia ;  color:white; font-size:20px
+}
+.title { color:black; font-size:30px;
+	text-align: center ;background-color:#66FF66; 
+}
+
+#body { margin-top: 50px; margin-bottom: 80px;
+}
+#text { border-top:ridge 10px green; color:#CC00CC ;
+        border-right: ridge 10px green; margin-right:50px;
+
+	}
+
+b{
+	color:white ; background:black; font-size:30px
+}
+#fio {
+	color:white; background:#0000CC; text-align:center ;
+}
+#date { text-align:right ; border-bottom: dotted #0000CC 10px;
+color:#33CCCC
+	
+}
+.b{
+	 border-bottom: dotted red 3px
+}

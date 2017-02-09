@@ -1,0 +1,110 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title> Гуков Т-291 </title>
+
+    <META name="Author" content="Gukov Nikita "> <!--Авторство -->
+    <!--<META http-equiv="Refresh" content=1> <!--Обновление -->
+    <META http-equiv="content-type" content="text/html;  charset=utf-8">
+    <script language="JavaScript" type="text/JavaScript">
+        function care() {
+            var a = document.form1.st1.value;
+            if (a == 1) {
+                this.form1.mes.style.backgroundColor = 'aqua';
+                this.form1.mes.style.color = 'grey';
+                this.form1.mes.style.fontSize = '20px';
+                (this.form1.mes.value = "Январь ");
+            }
+            else if (a == 2) {
+                this.form1.mes.style.backgroundColor = 'aqua';
+                this.form1.mes.style.color = 'grey';
+                this.form1.mes.style.fontSize = '20px';
+                (this.form1.mes.value = "Февраль ");
+            }
+            else if (a == 3) {
+                this.form1.mes.style.backgroundColor = 'lime';
+                this.form1.mes.style.color = 'blue';
+                this.form1.mes.style.borderStyle = 'solid';
+                (this.form1.mes.value = "Март ");
+            }
+            else if (a == 4) {
+                this.form1.mes.style.backgroundColor = 'lime';
+                this.form1.mes.style.color = 'blue';
+                this.form1.mes.style.borderStyle = 'solid';
+                (this.form1.mes.value = "Апрель ");
+            }
+            else if (a == 5) {
+                this.form1.mes.style.backgroundColor = 'lime';
+                this.form1.mes.style.color = 'blue';
+                this.form1.mes.style.borderStyle = 'solid';
+                (this.form1.mes.value = "Май ");
+            }
+            else if (a == 6) {
+                this.form1.mes.style.backgroundColor = 'yellow';
+                this.form1.mes.style.color = '#9b2d30';
+                this.form1.mes.style.fontStyle = 'italic';
+
+                (this.form1.mes.value = "Июнь ");
+            }
+            else if (a == 7) {
+                this.form1.mes.style.backgroundColor = 'yellow';
+                this.form1.mes.style.color = '#9b2d30';
+                this.form1.mes.style.fontStyle = 'italic';
+
+                this.form1.mes.value = "Июль ";
+            }
+            else if (a == 8) {
+                this.form1.mes.style.backgroundColor = 'yellow';
+                this.form1.mes.style.color = '#9b2d30';
+                this.form1.mes.style.fontStyle = 'italic';
+                (this.form1.mes.value = "Август ");
+            }
+            else if (a == 9) {
+                this.form1.mes.style.backgroundColor = 'orange';
+                this.form1.mes.style.color = 'brown';
+                this.form1.mes.style.fontFamily = 'calibri';
+                (this.form1.mes.value = "Сентябрь ");
+            }
+            else if (a == 10) {
+                this.form1.mes.style.backgroundColor = 'orange';
+                this.form1.mes.style.color = 'brown';
+                this.form1.mes.style.fontFamily = 'calibri';
+                (this.form1.mes.value = "Октябрь ");
+            }
+            else if (a == 11) {
+                this.form1.mes.style.backgroundColor = 'orange';
+                this.form1.mes.style.color = 'brown';
+                this.form1.mes.style.fontFamily = 'calibri';
+                (this.form1.mes.value = "Ноябрь ");
+            }
+            else if (a == 12) {
+                this.form1.mes.style.backgroundColor = 'aqua';
+                this.form1.mes.style.color = 'grey';
+                this.form1.mes.style.fontSize = '20px';
+                (this.form1.mes.value = "Декабрь ");
+            }
+            else {
+                alert('Введено неверное число');
+            }
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+<p>Пример сценария со значениями из формы</p>
+<Form name="form1">
+    Вычисление месяца <br>
+    Введите Чилсло от 1 до 12: <input type="text" size=5 name="st1">
+    <hr>
+    <input type="button" value=Вычислить onClick="care()">
+    <hr>
+    <input type="text" name="mes">
+</Form>
+</body>
+</html>
+

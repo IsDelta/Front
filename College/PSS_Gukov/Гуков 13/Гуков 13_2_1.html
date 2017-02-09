@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+    <title> Гуков Т-291 </title>
+
+    <META name="Author" content="Gukov Nikita "> <!--Авторство -->
+    <!--<META http-equiv="Refresh" content=1> <!--Обновление -->
+    <META http-equiv="content-type" content="text/html;  charset=utf-8">
+    <script language="JavaScript" type="text/JavaScript">
+
+        function care() {
+            var rand1 = Math.random();
+            var a = Math.floor(rand1 * 10);
+            rand1 = Math.random();
+            var b = Math.floor(rand1 * 10);
+            rand1 = Math.random();
+            var c = Math.floor(rand1 * 10);
+            var max = 0;
+            var min = 0;
+            var sum = 0;
+
+            this.form1.st1.value = "";
+            this.form1.st1.value = (a + " " + b + " " + c);
+
+            if ((a >= b) && (a >= c)) {
+                max = a
+            }
+            else if ((b >= a) && (b >= c)) {
+                max = b
+            }
+            else if ((c >= a) && (c >= b)) {
+                max = c;
+            }
+
+            if ((a <= b) && (a <= c)) {
+                min = a
+            }
+            else if ((b <= a) && (b <= c)) {
+                min = b
+            }
+            else if ((c <= a) && (c <= b)) {
+                min = c;
+            }
+
+
+            sum = max - min;
+            this.form1.mes.value = sum;
+        }
+
+
+    </script>
+</head>
+<body>
+<p>Вывести разницу МАХ и MIN элементов</p>
+<Form name="form1">
+    <input type="button" value=Вычислить onClick="care()">
+    <hr>
+    Элементы: <input type="text" size=5 name="st1">
+    <hr>
+    разница<input type="text" name="mes">
+</Form>
+</body>
+</html>
+
