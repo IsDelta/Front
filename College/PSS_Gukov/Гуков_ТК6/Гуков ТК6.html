@@ -3,81 +3,77 @@
 
 <head>
 
-<title> Гуков Т-291 </title>
+    <title> Гуков Т-291 </title>
 
-<META name="Author" content="Gukov Nikita "> <!--Авторство -->
-<!--<META http-equiv="Refresh" content=1> <!--Обновление -->
-<META http-equiv="content-type" content="text/html;  charset=utf-8">
-     <script language="JavaScript" type="text/JavaScript">
-        function sss()
-{ 
-  var a = 0;
-  var b = 0;
-  var c = 0;
-  var Zarpl =document.getElementById('Zarp') ;
-  var tbl1 =document.getElementById('tb1') ;
-  var tbl2 =document.getElementById('tb2') ;
-  var tbl3 =document.getElementById('tb3') ;
-  
-  a = Zarpl.value; 
-    if (a>= 10000)
-  {
-   tbl1.style.fontSize = '20px';
-  tbl2.style.fontSize = '20px';
-  tbl3.style.fontSize = '20px';
-    tbl1.style.background = 'yellow';
-  tbl2.style.background = 'yellow';
-  tbl3.style.background = 'yellow';
-  }
-  if( (a>= 1000)&&(a<10000))
-  {
-   tbl1.style.color = 'red';
-  tbl2.style.color = 'red';
-  tbl3.style.color = 'red';
-   tbl1.style.background = 'white';
-  tbl2.style.background = 'white';
-  tbl3.style.background = 'white';
-  }
-   if (a< 1000)
-  {
-   tbl1.style.background = 'lime';
-  tbl2.style.background = 'lime';
-  tbl3.style.background = 'lime';
-  }
+    <META name="Author" content="Gukov Nikita "> <!--Авторство -->
+    <!--<META http-equiv="Refresh" content=1> <!--Обновление -->
+    <META http-equiv="content-type" content="text/html;  charset=utf-8">
+    <script language="JavaScript" type="text/JavaScript">
+        function sss() {
+            var a = 0;
+            var b = 0;
+            var c = 0;
+            var Zarpl = document.getElementById('Zarp');
+            var tbl1 = document.getElementById('tb1');
+            var tbl2 = document.getElementById('tb2');
+            var tbl3 = document.getElementById('tb3');
 
- b = a*0.13;
- c = a -b;
-tbl1.value =a;
-tbl2.value =b;
-tbl3.value =c;
-  
+            a = Zarpl.value;
+            if (a >= 10000) {
+                tbl1.style.fontSize = '20px';
+                tbl2.style.fontSize = '20px';
+                tbl3.style.fontSize = '20px';
+                tbl1.style.background = 'yellow';
+                tbl2.style.background = 'yellow';
+                tbl3.style.background = 'yellow';
+            }
+            if ((a >= 1000) && (a < 10000)) {
+                tbl1.style.color = 'red';
+                tbl2.style.color = 'red';
+                tbl3.style.color = 'red';
+                tbl1.style.background = 'white';
+                tbl2.style.background = 'white';
+                tbl3.style.background = 'white';
+            }
+            if (a < 1000) {
+                tbl1.style.background = 'lime';
+                tbl2.style.background = 'lime';
+                tbl3.style.background = 'lime';
+            }
 
-  
+            b = a * 0.13;
+            c = a - b;
+            tbl1.value = a;
+            tbl2.value = b;
+            tbl3.value = c;
 
 
-}
-     </script>
-   </head>
-   <body>
-  Вариант 8<br><br>
-     Расчёт дохода <br>
-     Начислена зарплата<input type="text" id = "Zarp"><br>
-     <input type="button" value=Расчёт onClick="sss()"><br><br>
-     Результат
-     <table border = 1 > 
-     <tr> <th> Доход</th><th> Налог</th><th> На руки</th></tr>
-     <tr> <td id = "1tbl"><input type="text" id = "tb1" name = "tabl1"></td>
-     <td id = "2tbl" ><input type="text" id = "tb2" ></td>
-     <td id = "3tbl"> <input type="text" id = "tb3" ></td></tr>
-     </table>
-     Если ЗП  меньше 1000,то твет фона - зеленый  <br>
-     Если ЗП от 1000 до 10 000, то цвет текста - красный<br>
-     Если ЗП больше 10 000, то размер шрифта 20рх и цвет фона - желтый
-     
-     
-     
+        }
+    </script>
+</head>
+<body>
+Вариант 8<br><br>
+Расчёт дохода <br>
+Начислена зарплата<input type="text" id="Zarp"><br>
+<input type="button" value=Расчёт onClick="sss()"><br><br>
+Результат
+<table border=1>
+    <tr>
+        <th> Доход</th>
+        <th> Налог</th>
+        <th> На руки</th>
+    </tr>
+    <tr>
+        <td id="1tbl"><input type="text" id="tb1" name="tabl1"></td>
+        <td id="2tbl"><input type="text" id="tb2"></td>
+        <td id="3tbl"><input type="text" id="tb3"></td>
+    </tr>
+</table>
+Если ЗП меньше 1000,то твет фона - зеленый <br>
+Если ЗП от 1000 до 10 000, то цвет текста - красный<br>
+Если ЗП больше 10 000, то размер шрифта 20рх и цвет фона - желтый
 
 
-     </Form>
-  </body>
+</Form>
+</body>
 </html>
