@@ -1,0 +1,35 @@
+body {
+    background-color: cornflowerblue;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+.first {
+    margin: 70px auto;
+    width: 50%;
+    text-align: justify;
+    border: 1px solid #ffffff;
+    padding: 20px;
+}
+
+marquee {
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+}
+
+.second {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.second h1 {
+    text-align: center;
+}
+
+.second span#num {
+    font-family: "Courier New", sans-serif;
+    color: yellow;
+}
