@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>DIVOSPECTRANS</title>
+
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="linkIndex" href="index.html" title="main">
+<header>
+    <img src="img/logo.png" alt="logo" title="DIVOSPECTRANS" width="60" height="60">
+    <span class="brand">DIVOSPECTRANS</span>
+    <span class="tagline">Your projects &mdash; our solutions</span>
+</header>
+</a>
+<nav>
+    <ul>
+        <li><a class="activeNav" href="index.html" title="main">main</a></li>
+        <li><a href="about.html" title="about">about</a></li>
+        <li><a href="service.html" title="service">service</a></li>
+        <li id="sub"><a href="gallery.html" title="gallery">gallery</a>
+            <ul>
+                <li class="liTriangle">
+                    <div class="triangle"></div>
+                </li>
+                <li><a href="video.html" title="video">Video</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<div class="body">
+    <article>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    shipping via belarus<br>
+                    we have different cars<br>
+                    such as :<br>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <dl>
+                        <dt>uncovered car</dt>
+                        <dd><img src="img/man.jpg" alt="somePic" title="Man" width="200" height="150"></dd>
+                        <dd>Moving Minsk, Republic of Belarus,<br>
+                            the Russian Federation, the city,<br>
+                            the suburbs, passing and groupage
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4">
+                    <dl>
+                        <dt>covered car</dt>
+                        <dd><img src="img/man.jpg" alt="somePic" title="Man" width="200" height="150"></dd>
+                        <dd>Moving Minsk, Republic of Belarus,<br>
+                            the Russian Federation, the city,<br>
+                            the suburbs, passing and groupage
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4">
+                    <dl>
+                        <dt>manipulator</dt>
+                        <dd><img src="img/man.jpg" alt="somePic" title="Man" width="200" height="150"></dd>
+                        <dd>Moving Minsk, Republic of Belarus,<br>
+                            the Russian Federation, the city,<br>
+                            the suburbs, passing and groupage
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row flex">
+                <div class="col-md-5">
+                    <button>call us: +375 29 345-12-40</button>
+                </div>
+                <div class="col-md-2">or</div>
+                <div class="col-md-5">
+                    <button onclick="formShow()">send e-mail</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="lole" action="http://fe.it-academy.by/TestForm.php" method="post">
+                        <label for="name">name</label>
+                        <input type="text" id="name" name="name" placeholder="name"><br>
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" placeholder="e-mail@mail.com"><br>
+                        <label for="subject">subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="subject"><br>
+                        <label>message</label><textarea id="message" name="message"
+                                                        placeholder="Input some message"></textarea><br>
+                        <input type="submit" name="submit" value="SEND">
+                        <input type="button" name="cancel" value="CANCEL" onclick="cancela()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">&copy;2017</div>
+            <div class="col-md-4">
+                <a href="https://www.twitter.com" title="" target="_blank"><i class="fa fa-twitter"
+                                                                              aria-hidden="true"></i>&nbsp;</a>
+                <a href="https://www.facebook.com" title="" target="_blank"><i class="fa fa-facebook"
+                                                                               aria-hidden="true"></i>&nbsp;</a>
+                <a href="https://www.vk.com" title="" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i>&nbsp;
+                </a>
+                <a href="https://www.github.com" title="" target="_blank"><i class="fa fa-github"
+                                                                             aria-hidden="true"></i>&nbsp;</a>
+                <a href="https://www.plus.google.com" title="" target="_blank"><i class="fa fa-google-plus"
+                                                                                  aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function formShow() {
+        var form = document.getElementById('lole');
+        form.style.display = 'block';
+    }
+    function cancela() {
+        var form = document.getElementById('lole');
+        form.style.display = 'none';
+    }
+</script>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>

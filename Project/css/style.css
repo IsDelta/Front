@@ -1,0 +1,14 @@
+header, footer, article {
+    width: 1000px;
+    background-color: #6d98ff;
+    margin: 0 auto;
+}
+
+article {
+    background-color: cornsilk;
+    mi-height: 100%;
+}
+
+footer {
+
+}
