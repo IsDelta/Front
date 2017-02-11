@@ -278,11 +278,39 @@ footer .col-md-4 a:hover {
     article .col-md-5 button {
         margin: 10px 0;
     }
+    article .col-md-4 dt{
+        text-align: left;
+        clear: both;
+    }
+    article .col-md-4 dd {
+        font-size: 20px;
+        text-align: left;
+
+    }
+    article .ddText{
+        margin-right: 40px;
+        float: left;
+    }
+
 }
+
 @media all and (max-width: 582px) {
     article.about .col-md-12.img img {
         width: 240px;
         height: 122px;
+    }
+    article .col-md-4 dt{
+        text-align: center;
+        clear: both;
+    }
+    article .col-md-4 dd {
+        font-size: 20px;
+        text-align: center;
+
+    }
+    article .ddText{
+        margin-right: 40px;
+        float: none;
     }
 }
 .carousel-inner > .item > img,
