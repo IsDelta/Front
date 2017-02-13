@@ -1,0 +1,294 @@
+body {
+    overflow-y: scroll;
+    margin-top: 15px;
+    text-transform: uppercase;
+    -moz-font-family: 'Open Sans', sans-serif;
+    -webkit-font-family: 'Open Sans', sans-serif;
+    -ms-font-family: 'Open Sans', sans-serif;
+    -o-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+
+/*#############################  header   ##################################*/
+.linkIndex:hover {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    color: #35c660;
+}
+header img {
+    margin-right: -100px;
+}
+header .brand {
+    font-size: 31px;
+    font-weight: 600;
+}
+header .tagline {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+nav {
+    margin: 25px auto;
+    max-width: 800px;
+    min-height: 54px;
+    max-height: 250px;
+    background-color: #35c660;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    max-height: 54px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.activeNav {
+    background-color: #2ba650;
+}
+.triangle.activeNavBorder {
+    border-bottom-color: #2ba650;
+}
+nav ul li a {
+    background-color: #35c660;
+    padding: 13px 65px;
+    text-decoration: none;
+    color: #fff;
+}
+nav li {
+    padding: 13px 0;
+}
+nav a:hover, nav a:focus, nav a:active {
+    background-color: #2ba650;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: background-color, border-bottom-color 0.2s ease;
+    -moz-transition: background-color, border-bottom-color 0.2s ease;
+    -ms-transition: background-color, border-bottom-color 0.2s ease;
+    -o-transition: background-color, border-bottom-color 0.2s ease;
+    transition: background-color, border-bottom-color 0.2s ease;
+}
+nav li ul {
+
+    display: none;
+    margin-top: 13px;
+    position: absolute;
+}
+nav li ul:hover div.triangle {
+    border-bottom-color: #2ba650;
+}
+nav li ul li {
+    background-color: #35c660;
+}
+nav li ul a{
+    padding: 13px 77px;
+}
+#sub:hover ul{
+    display: block;
+}
+nav li ul:hover {
+    display: block;
+}
+.liTriangle {
+    padding: 0;
+    background-color: transparent;
+}
+.triangle {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: solid 10px #35c660;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+
+}
+/*#############################  article   ##################################*/
+.body {
+    margin: 0 auto;
+    padding: 45px 35px;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+article .col-md-12 {
+    color: #666666;
+    font-size: 31px;
+}
+article .col-md-4 dt {
+    padding-top: 30px;
+    color: #666666;
+    font-size: 21px;
+    text-align: center;
+}
+article .col-md-4 dd {
+    padding-top: 30px;
+    color: #666666;
+    font-size: 11px;
+    text-align: center;
+}
+article .col-md-4 img {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .6);
+}
+article .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 100px auto;
+    font-weight: 600;
+}
+article .col-md-5 button {
+    padding: 10px;
+    width: 250px;
+    border: solid 4px #666;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #666;
+}
+article .col-md-5 button:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+article.about .text .col-md-12{
+    font-size: 16px;
+    padding: 50px 30px;
+}
+article.about .col-md-12.img {
+    text-align: center;
+}
+article.about .adr .col-md-12 {
+    font-size: 20px;
+    padding: 50px 30px;
+}
+
+article.service .textHeader .col-md-12 {
+    font-size: 25px;
+    padding: 50px 30px;
+
+}
+article.service .text .col-md-12 {
+    font-size: 16px;
+    padding: 20px 30px;
+}
+article.service .img {
+    text-align: center;
+}
+article.service .img .col-md-6 {
+    padding: 30px 0;
+}
+article.service .col-md-6 img {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .6);
+}
+article.video .videoYT {
+    margin-top: 40px;
+    text-align: center;
+}
+label{
+    width: 80px;
+}
+input {
+    margin-left: 20px;
+}
+textarea {
+    margin-left: 23px;
+}
+form {
+    display: none;
+    text-align: center;
+    font-size: 15px;
+}
+/*#############################  footer   ##################################*/
+footer {
+    max-width: 800px;
+    min-height: 58px;
+    max-height: 130px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-top: 13px ;
+    background-color: #35c660;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+footer .col-md-4 a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .col-md-4 a:hover {
+    color: #666;
+}
+
+@media all and (max-width: 992px){
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+    header img {
+        margin: 0;
+    }
+    nav {
+        border: none;
+    }
+    nav ul {
+        flex-direction: column;
+        max-height: 400px;
+    }
+    nav li {
+        overflow: hidden;
+        width: 100%;
+    }
+    nav li ul li {
+        overflow: hidden;
+        width: 100%;
+    }
+    nav li ul {
+        width: 100%;
+    }
+    nav li ul li a {
+        padding-right: 100%;
+    }
+    .activeNav {
+        border-bottom: none;
+    }
+    nav ul li a {
+        padding-right: 100%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .row .col-md-4 {
+        width: 100%;
+    }
+    article .flex {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+    article .col-md-5 button {
+        margin: 10px 0;
+    }
+}
+@media all and (max-width: 582px) {
+    article.about .col-md-12.img img {
+        width: 240px;
+        height: 122px;
+    }
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    max-height: 244px;
+    min-height: 162px;
+    margin: 0 auto;
+
+}

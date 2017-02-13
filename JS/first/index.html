@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="import" href="header.html">
+</head>
+
+<body>
+
+<script>
+    var link = document.querySelector('link[rel=import]');
+    var content = link.import.querySelector('#intro-dm');
+    document.body.appendChild(content.cloneNode(true));
+</script>
+<form name="form" style="border: 1px solid red">
+    <label for="male">мужской</label>
+    <input type="radio" id="male" value="male" name="sex">
+    <label for="female">женский</label>
+    <input type="radio" id="female" value="female" name="sex">
+    <span id="message"></span>
+    <input type="button" id="done" onclick="check()">
+    <br>
+    <ul>
+        <li>12665555555</li>
+        <li>56777</li>
+        <li>d3333333dd</li>
+    </ul>
+
+    <script>
+        function check() {
+
+            var state = $('input[name= "sex"]:checked').val();
+
+            if (!state) {
+                return $('#message').html("Lol");
+            } else return $('#message').html(state);
+
+        }
+
+        var a = $('li');
+        alert(a[2].innerHTML);
+        $('#message').html(a[2]);
+
+    </script>
+</form>
+</body>
+</html>

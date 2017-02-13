@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src=" https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input, textarea, p, button {
+            border: 2px solid #666;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            margin: 20px;
+            background-color: #fff;
+            resize: none;
+            width: 80%;
+            padding: 10px;
+        }
+
+        p {
+            border: none;
+            background-color: transparent;
+        }
+
+        .form {
+            padding: 10px;
+            width: 500px;
+            text-align: center;
+            border: 1px solid black;
+            background-color: #6d98ff;
+            margin: 20px auto;
+        }
+
+        label {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+
+        }
+
+        button {
+
+            width: 75%;
+            padding: 20px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        @media all and (max-width: 500px) {
+            form {
+                max-width: 100%;
+                margin: 20px 0;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            input, textarea {
+
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="form">
+    <button name="gene" id="gene"> Generate</button>
+    <br>
+    <label for="text">Text</label>
+    <input type="text" name="text" id="text" class="text"><br>
+    <textarea name="message" id="message" cols="30" rows="11"></textarea><br>
+    <p id="countL">0 of 10</p>
+    <button id="restart">Restart</button>
+</div>
+
+<script type="text/javascript">
+    var count = 0;
+    var text = $('#text'), area = $('#message'), countL = $('#countL');
+
+    $('#gene').click(function () {
+        if (count < 10) {
+
+            var url = 'https://gp-js-test.herokuapp.com/api';
+            fetch(url).then(function (res) {
+                return res.json();
+            }).then(function (data) {
+
+                function random(nameMas) {
+                    return data[nameMas][parseInt(Math.random() * data[nameMas].length)];
+                }
+
+                var adj = random('adjectives'), cit = random('cities');
+                if (text.value != (adj + " " + cit)) {
+                    text.val((adj + " " + cit));
+                    area.append(adj + " " + cit + '\n');
+                    count++;
+                    countL.html(count + " of 10");
+
+                }
+            });
+
+
+        }
+    });
+    $('#restart').click(function () {
+        text.val('');
+        area.html('');
+        countL.html('0 of 10');
+        count = 0;
+    });
+
+
+</script>
+</body>
+</html>
