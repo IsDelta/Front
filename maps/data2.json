@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Fabrikkbrua",
+    "description": "Fabrikkbrua var forbindelsen mellom byen og fabrikken.",
+    "location": {
+      "lat": 59.879037,
+      "lng": 8.575609
+    }
+  },
+  {
+    "id": "2",
+    "title": "Fabrikken",
+    "description": "Nå står du inne på selve fabrikken, ved siden av syretårnet.",
+    "location": {
+      "lat": 59.87949,
+      "lng": 8.570257
+    }
+  },
+  {
+    "id": "3",
+    "title": "Gaustatoppen",
+    "description": "Fjellet du ser nå er Gaustatoppen.\nTelemarks høyeste fjell med 1883 m.o.h.",
+    "location": {
+      "lat": 59.854354,
+      "lng": 8.649171
+    }
+  },
+  {
+    "id": "4",
+    "title": "Rjukan stasjon",
+    "description": "På Rjukan stasjon kan du stige ombord i toget på Rjukanbanen\n på veg ned til Mæl stasjon og Tinnsjøen.",
+    "location": {
+      "lat": 59.87768,
+      "lng": 8.582787
+    }
+  },
+  {
+    "id": "5",
+    "title": "Tinn kommune",
+    "description": "Øverst i Telemark ligger Tinn kommune,\n\n1900 km2 i utstrekning og med ca 6000 innbyggere.",
+    "location": {
+      "lat": 59.878701,
+      "lng": 8.593745
+    }
+  },
+  {
+    "id": "6",
+    "title": "Vemork",
+    "description": "Vemork kraftstasjon var verdens\nstørste kraftstasjon da den stod ferdig i 1911.",
+    "location": {
+      "lat": 59.871209,
+      "lng": 8.4914
+    }
+  },
+  {
+    "id": "7",
+    "title": "EMMA & EDVARD - LOVE IN THE TIME OF LONELINESS",
+    "description": "In an audio-visual interaction between Munch’s art and Flaubert’s text, we can see surprising connections and gain new perspectives on the respective works.",
+    "location": {
+      "lat": 59.917095,
+      "lng": 10.774512
+    }
+  }
+]

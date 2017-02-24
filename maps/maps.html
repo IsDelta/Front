@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+    <META charset="utf-8">
+
+    <TITLE>Таблица</TITLE>
+    <style type="text/css">
+        #google, #yandex {
+            height: 20em;
+            width: 30em;
+        }
+    </style>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</HEAD>
+<BODY>
+<a href="https://developers.google.com/maps/documentation/javascript/">Google</a>
+<div id="google"></div>
+<a href="https://tech.yandex.ru/maps/jsbox/2.1/">Yandex</a>
+<div id="yandex"></div>
+<script>
+    function initMap() {
+        var piramid = {lat: 29.9792384, lng: 31.1338516};
+        var map = new google.maps.Map(document.getElementById('google'), {
+            zoom: 15,
+            center:  piramid,
+            zoomControl: false
+        });
+        var marker = new google.maps.Marker({
+            position:  piramid,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDPQgUJIDDMxDS1hjPaQa-pvE_ghN0uXI&callback=initMap"></script>
+<!-- Yandex -->
+<script>
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map('yandex', {
+                center: [29.9792384, 31.1338516],
+                zoom: 15
+            }, {
+                searchControlProvider: 'yandex#search'
+            }),
+            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                hintContent: 'Пирамида ',
+                balloonContent: 'Пирамида'
+            }, {
+                iconLayout: 'default#image',
+                iconImageSize: [30, 42],
+                iconImageOffset: [-3, -42]
+            });
+        myMap.geoObjects.add(myPlacemark);
+    });
+</script>
+
+</BODY>
+</HTML>
