@@ -1,0 +1,28 @@
+article {
+  text-align: center;
+  background-color: #ff0000;
+  width: 100%;
+  padding: 2px;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  margin: 20px;
+  background-color: #ffff00;
+  line-height: 150%;
+}
+
+p:first-of-type:first-letter {
+  text-transform: uppercase;
+}
+
+p + p {
+  margin-top: -5px;
+
+}
+
+img {
+  height: 20vh;
+
+}

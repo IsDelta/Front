@@ -2,24 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18307284-1120-42fd-9144-fd258015f20b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pik/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pik/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pik/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test task/main.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/cov.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/laba/index.html" afterPath="$PROJECT_DIR$/AXIT/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test2/index.html" afterPath="$PROJECT_DIR$/AXIT/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Front.iml" afterPath="$PROJECT_DIR$/.idea/Front.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/fonts/CaviarDreamsRegular/CaviarDreamsRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/Headphones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/apples.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/by.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/dushevnoe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/media.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/photo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/pilotFM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/img/rus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/fonts/CaviarDreamsRegular/CaviarDreamsRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/fonts/CaviarDreamsRegular/CaviarDreamsRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MOOP/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pik/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test task/index.html" afterPath="$PROJECT_DIR$/test task/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pik/index.html" afterPath="$PROJECT_DIR$/pik/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +48,57 @@
     <favorites_list name="Front" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.6169031">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MOOP/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#1123#1129#0" expanded="true" />
+                    <element signature="e#1132#1138#0" expanded="true" />
+                    <element signature="e#1243#1249#0" expanded="true" />
+                    <element signature="e#1358#1364#0" expanded="true" />
+                    <element signature="e#2520#2526#0" expanded="true" />
+                    <element signature="e#3002#3008#0" expanded="true" />
+                    <element signature="e#4081#4085#0" expanded="true" />
+                    <element signature="e#4091#4095#0" expanded="true" />
+                    <element signature="e#4102#4106#0" expanded="true" />
+                    <element signature="e#4112#4116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MOOP/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MOOP/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="834">
+                  <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,9 +106,9 @@
         <option value="package_json" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,12 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/College/PSS_Gukov/Гуков_ТК4/Гуков_ТК4.html" />
-        <option value="$PROJECT_DIR$/College/PSS_Gukov/Гуков_ТК5/tk.html" />
-        <option value="$PROJECT_DIR$/College/PSS_Gukov/Гуков_ТК6/Гуков ТК6.html" />
-        <option value="$PROJECT_DIR$/College/PSS_Gukov/Гуков Сайт/index.html" />
-        <option value="$PROJECT_DIR$/laba/index.html" />
-        <option value="$PROJECT_DIR$/Project/css/style.css" />
         <option value="$PROJECT_DIR$/test2/index.html" />
         <option value="$PROJECT_DIR$/Project/index.html" />
         <option value="$PROJECT_DIR$/Project test/index.html" />
@@ -123,7 +168,13 @@
         <option value="$PROJECT_DIR$/AXIT/index.html" />
         <option value="$PROJECT_DIR$/AXIT/style.css" />
         <option value="$PROJECT_DIR$/PHP/main.php" />
+        <option value="$PROJECT_DIR$/pik/style.sass" />
+        <option value="$PROJECT_DIR$/pik/style.css" />
         <option value="$PROJECT_DIR$/pik/index.html" />
+        <option value="$PROJECT_DIR$/pik/style.scss" />
+        <option value="$PROJECT_DIR$/MOOP/script.js" />
+        <option value="$PROJECT_DIR$/MOOP/index.html" />
+        <option value="$PROJECT_DIR$/MOOP/style.css" />
       </list>
     </option>
   </component>
@@ -189,34 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -246,6 +269,20 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +296,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.5" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="typescript-compiler-editor-notification" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Divospectrans-master" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -267,12 +304,17 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OneDrive\Documents\Programming\Front\pik" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OneDrive\Documents\Programming\Front\MOOP\img" />
+      <recent name="C:\OneDrive\Documents\Programming\Front\MOOP" />
       <recent name="C:\OneDrive\Documents\Programming\Front\pik" />
       <recent name="C:\OneDrive\Documents\Programming\Front" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OneDrive\Documents\Programming\Front\MOOP\img" />
+      <recent name="C:\OneDrive\Documents\Programming\Front\MOOP\fonts" />
+      <recent name="C:\OneDrive\Documents\Programming\Front\MOOP" />
+      <recent name="C:\OneDrive\Documents\Programming\Front\pik" />
     </key>
   </component>
   <component name="RunManager">
@@ -339,6 +381,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="18307284-1120-42fd-9144-fd258015f20b" name="Default" comment="" />
@@ -389,7 +434,15 @@
       <workItem from="1488242502765" duration="648000" />
       <workItem from="1488486766405" duration="11867000" />
       <workItem from="1489138317692" duration="372000" />
-      <workItem from="1489139645024" duration="8000" />
+      <workItem from="1489139645024" duration="73000" />
+      <workItem from="1489139973004" duration="12000" />
+      <workItem from="1489140465982" duration="55000" />
+      <workItem from="1489395828688" duration="80000" />
+      <workItem from="1490356371326" duration="1188000" />
+      <workItem from="1490357571433" duration="411000" />
+      <workItem from="1490643603017" duration="3000" />
+      <workItem from="1491225062443" duration="22292000" />
+      <workItem from="1491305271133" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1486587497210</created>
@@ -503,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487899192867</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="all new">
+      <created>1489139672657</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1489139672657</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117945000" />
+    <option name="totallyTimeSpent" value="142283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,11 +583,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12686567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13486141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3372093" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21488912" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21481876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -537,7 +597,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,7 +668,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/pik/index.html</url>
-          <line>40</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -617,54 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Project2/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/first/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/first/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="107" lean-forward="false" selection-start-line="3" selection-start-column="107" selection-end-line="3" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS/first/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TaskWeb/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/TaskWeb/package.json" />
     <entry file="file://$PROJECT_DIR$/TaskWeb/systemjs.config.js" />
     <entry file="file://$PROJECT_DIR$/TaskWeb/index.html" />
@@ -829,20 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AXIT/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AXIT/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -857,10 +855,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AXIT/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AXIT/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pik/style.sass" />
+    <entry file="file://$PROJECT_DIR$/pik/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pik/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pik/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOOP/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOOP/1.css" />
+    <entry file="file://$PROJECT_DIR$/MOOP/img/apples.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOOP/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#1123#1129#0" expanded="true" />
+            <element signature="e#1132#1138#0" expanded="true" />
+            <element signature="e#1243#1249#0" expanded="true" />
+            <element signature="e#1358#1364#0" expanded="true" />
+            <element signature="e#2520#2526#0" expanded="true" />
+            <element signature="e#3002#3008#0" expanded="true" />
+            <element signature="e#4081#4085#0" expanded="true" />
+            <element signature="e#4091#4095#0" expanded="true" />
+            <element signature="e#4102#4106#0" expanded="true" />
+            <element signature="e#4112#4116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOOP/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
           <folding />
         </state>
       </provider>
